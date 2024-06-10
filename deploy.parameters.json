@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "serverName": {
+      "value": "<your-server-name>"
+    },
+    "databaseName": {
+      "value": "<your-database-name>"
+    },
+    "location": {
+      "value": "<your-location>"
+    },
+    "adminUsername": {
+      "value": "<your-admin-username>"
+    },
+    "adminPassword": {
+      "value": "<your-admin-password>"
+    },
+    "edition": {
+      "value": "Standard"
+    },
+    "serviceObjective": {
+      "value": "S0"
+    },
+    "webAppName": {
+      "value": "<your-web-app-name>"
+    },
+    "hostingPlanName": {
+      "value": "<your-hosting-plan-name>"
+    }
+  }
+}
